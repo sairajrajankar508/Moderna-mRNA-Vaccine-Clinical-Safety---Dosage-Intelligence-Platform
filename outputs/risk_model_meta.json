@@ -1,0 +1,46 @@
+{
+  "selected_model": "logistic_regression",
+  "selection_rule": "highest test-set F1 for the High-risk class",
+  "risk_threshold": 0.5,
+  "feature_columns": [
+    "Age",
+    "Biomarker_Level",
+    "Vaccine_Dose_mcg",
+    "Pre_Existing_Conditions",
+    "Prior_Reaction_History"
+  ],
+  "reaction_encoding": {
+    "None": 0,
+    "Mild": 1,
+    "Moderate": 2
+  },
+  "test_metrics": {
+    "logistic_regression": {
+      "f1": 0.6881720430107527,
+      "roc_auc": 0.7703081232492998
+    },
+    "random_forest": {
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.7378951580632254
+    }
+  },
+  "scaled_training_stats": {
+    "Age": {
+      "mean": 1.376676550535194e-16,
+      "std": 0.9999999999999999
+    },
+    "Biomarker_Level": {
+      "mean": 1.9984014443252818e-16,
+      "std": 1.0
+    },
+    "Vaccine_Dose_mcg": {
+      "mean": 1.376676550535194e-16,
+      "std": 1.0
+    }
+  },
+  "train_rows": 400,
+  "test_rows": 100,
+  "random_seed": 42,
+  "sklearn_version": "1.9.1",
+  "trained_at": "2026-10-22T06:37:54+00:00"
+}

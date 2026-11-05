@@ -1,0 +1,6 @@
+feature,coefficient
+Biomarker_Level,0.8502758093520331
+Pre_Existing_Conditions,0.5515836183957655
+Vaccine_Dose_mcg,0.5067820632309458
+Prior_Reaction_History,0.46151337304292284
+Age,0.33355341919065806
