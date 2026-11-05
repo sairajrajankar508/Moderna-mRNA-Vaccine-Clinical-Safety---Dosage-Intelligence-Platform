@@ -1,0 +1,98 @@
+MODERNA
+
+mRNA Therapeutic Products
+
+Clinical Safety, Storage & Dosing Reference Guide
+
+Reference Document — RAG Knowledge Base Source
+
+Company Context: Moderna — mRNA Therapeutics
+
+Document Version: 1.0
+
+Used By: mRNA-VIP Project — Week 3 (RAG) and Week 4 (LLM Report Generation)
+
+Format: Plain-text source: mrna_safety_guidelines.txt
+
+Case study reference referencing Moderna's public mRNA work.
+
+Note to Students
+
+HOW TO USE THIS DOCUMENT
+
+This reference guide was written for the mRNA-VIP course project to give your Week 3 retrieval-augmented generation (RAG) pipeline realistic, regulatory-style source material to search over. It reflects commonly known, general principles of mRNA product handling and dosing. Do not present it, or any report your pipeline generates from it, as real clinical or regulatory guidance.
+
+Load this document's text into your chunking and embedding pipeline exactly as you would any other source document. Its four sections are designed to give your retriever a variety of realistic query types to handle: storage conditions, dosing bands, contraindications, and reporting rules.
+
+Section 1: Storage and Handling Requirements
+
+1.1 Ultra-Low Temperature Storage
+
+Unopened mRNA lipid nanoparticle formulations are stored at ultra-low temperature, typically between -25C and -15C for extended shelf life, or between -80C and -60C for maximum shelf-life formulations. Product removed from ultra-low storage and placed under refrigeration (2C to 8C) is generally considered stable for up to 30 days, after which it must be discarded if unused. Once a vial is punctured, its contents must be used within the manufacturer-specified in-use window, typically 6 to 12 hours when stored at room temperature.
+
+1.2 Refrigerated Storage
+
+Refrigerated storage (2C to 8C) is acceptable for short-term use immediately prior to administration. Product must never be refrozen once thawed. Vials should be kept upright and protected from light at all times, as mRNA formulations are photosensitive and repeated freeze-thaw cycles degrade the lipid nanoparticle structure.
+
+1.3 Transport Conditions
+
+During transport, validated cold-chain shipping containers with continuous temperature logging are required. Any excursion above -15C for formulations requiring ultra-low storage must be documented and reviewed before the affected batch is approved for patient use. Deviations lasting longer than 1 hour require the batch to be quarantined pending quality review.
+
+1.4 Visual Inspection Prior to Use
+
+Prior to administration, vials must be visually inspected for particulate matter or discoloration. Product exhibiting visible particulates, cloudiness inconsistent with the expected formulation appearance, or any container damage must not be administered and should be reported through the standard product-quality complaint process.
+
+Section 2: Dosing Guidance by Age Band
+
+2.1 General Dosing Principles
+
+Dose selection for mRNA therapeutic products is generally determined by age, body weight where applicable, and the specific clinical indication. As a general reference range across mRNA vaccine platforms, primary-series doses commonly fall between 25 and 100 micrograms, while booster or lower-reactogenicity formulations are frequently dosed between 25 and 50 micrograms. Doses above 100 micrograms are considered high-reactogenicity doses and require secondary clinician review before administration.
+
+2.2 Age-Banded Reference Doses
+
+- Ages 6 months to 4 years: lowest available dose tier; administration requires pediatric-formulated product and is not interchangeable with adult vials.
+
+- Ages 5 to 11 years: intermediate pediatric dose tier, generally half the standard adult dose.
+
+- Ages 12 to 64 years: standard adult dosing range as listed in Section 2.1.
+
+- Ages 65 and older: standard adult dosing range applies; however, patients in this age band with two or more relevant pre-existing conditions should be flagged for secondary clinician review regardless of dose, due to elevated reactogenicity risk observed in this population.
+
+2.3 Dose Adjustment for Elevated Biomarker Levels
+
+Patients presenting with an inflammatory biomarker level meaningfully above the normal reference range at the time of screening should have dosing deferred until the biomarker returns to a normal range, or should receive the lowest clinically appropriate dose tier with enhanced post-administration monitoring, at the administering clinician's discretion.
+
+Section 3: Contraindications and Warnings
+
+3.1 Absolute Contraindications
+
+- Known severe allergic reaction (e.g., anaphylaxis) to a prior dose of the same product or to any component of the formulation, including the lipid nanoparticle excipients.
+
+- Active, unresolved severe adverse reaction from a previous dose that has not been cleared by an allergist or treating physician.
+
+3.2 Precautions Requiring Secondary Review
+
+- Three or more relevant pre-existing conditions at time of screening.
+
+- Prior history of a moderate reaction to an mRNA-based product, even if the reaction has since resolved.
+
+- Candidate dose exceeding 100 micrograms combined with an elevated biomarker level.
+
+- Age under 5 years combined with any pre-existing condition.
+
+3.3 Standard Warnings
+
+Patients should be monitored for at least 15 minutes following administration, or 30 minutes for patients with a documented history of any allergic reaction. Localized injection-site reactions (soreness, redness, mild swelling) are common and do not by themselves require secondary review. Systemic reactions such as fever, chills, or fatigue lasting more than 48 hours should be documented and reported.
+
+Section 4: Adverse Event Documentation
+
+4.1 Reporting Thresholds
+
+Any adverse event classified as moderate or severe must be documented within 24 hours of occurrence, including onset time, duration, severity, and any treatment administered. Mild, self-limiting reactions consistent with expected reactogenicity do not require individual reporting but should be captured in aggregate monitoring where available.
+
+4.2 Escalation Criteria
+
+An adverse event should be escalated to clinical safety review if it involves hospitalization, is life-threatening, results in persistent disability, or is otherwise considered medically significant by the administering clinician.
+
+End of Document.
+
