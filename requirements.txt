@@ -1,0 +1,32 @@
+# mRNA-VIP: tested with Python 3.12-3.14 on Windows/Linux.
+# After installing, pin the exact versions you used for your submission with:
+#     pip freeze > requirements-lock.txt
+
+# Module 1: data + classical ML
+pandas>=2.2
+numpy>=2.1
+scikit-learn>=1.6
+joblib>=1.4
+
+# Module 2: attention (PyTorch is used for the cross-check of the NumPy implementation)
+torch>=2.9
+
+# Figures (Modules 1, 2, 5)
+matplotlib>=3.9
+seaborn>=0.13
+pillow>=10.0
+
+# Module 3: retrieval
+chromadb>=1.5.9   # older releases fail to import on Python 3.14
+sentence-transformers>=3.0
+langchain-core>=0.3
+langchain-huggingface>=0.1
+
+# Module 4: structured LLM reports (install the provider you have a key for; both are listed)
+pydantic>=2.9
+langchain-anthropic>=0.3
+langchain-openai>=0.2
+python-dotenv>=1.0
+
+# Notebooks in VS Code / Jupyter
+ipykernel>=6.29
