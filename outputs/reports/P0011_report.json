@@ -1,0 +1,14 @@
+{
+  "Eligible_For_Vaccine": true,
+  "Recommended_Dose_mg": 0.0347,
+  "Reasoning_Steps": [
+    "The Module 1 risk model predicts Low reaction risk (probability 0.20).",
+    "The candidate dose of 34.7 mcg is within the 25-100 mcg reference range in the retrieved guideline.",
+    "Post-administration monitoring applies as stated in the retrieved guideline."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "As a general reference range across mRNA vaccine platforms, primary-series doses commonly fall between 25 and 100 micrograms, while booster or lower-reactogenicity formulations are frequently dosed between 25 and 50 micrograms.",
+    "Patients should be monitored for at least 15 minutes following administration, or 30 minutes for patients with a documented history of any allergic reaction."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance. Do not use for medical decisions."
+}

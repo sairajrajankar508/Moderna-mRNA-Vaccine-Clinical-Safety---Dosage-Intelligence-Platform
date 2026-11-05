@@ -1,0 +1,14 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The Module 1 risk model predicts High reaction risk (probability 0.82).",
+    "The candidate dose of 120 mcg is above the 25-100 mcg reference range in the retrieved guideline, so it cannot be recommended automatically.",
+    "[Safety check] Guideline 2.1: Candidate dose 120 mcg exceeds 100 mcg, so it requires secondary clinician review before administration."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "As a general reference range across mRNA vaccine platforms, primary-series doses commonly fall between 25 and 100 micrograms, while booster or lower-reactogenicity formulations are frequently dosed between 25 and 50 micrograms.",
+    "Doses above 100 micrograms are considered high-reactogenicity doses and require secondary clinician review before administration."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance. Do not use for medical decisions."
+}

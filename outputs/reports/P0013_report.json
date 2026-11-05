@@ -1,0 +1,18 @@
+{
+  "Eligible_For_Vaccine": false,
+  "Recommended_Dose_mg": 0.0,
+  "Reasoning_Steps": [
+    "The Module 1 risk model predicts High reaction risk (probability 0.76).",
+    "The candidate dose of 63.5 mcg is within the 25-100 mcg reference range in the retrieved guideline.",
+    "Because predicted risk is High, the dose is lowered to 50 mcg, the top of the 25-50 mcg lower-reactogenicity band in the guideline.",
+    "Post-administration monitoring applies as stated in the retrieved guideline.",
+    "[Safety check] Guideline 2.2: Age 68 with 2 pre-existing conditions must be flagged for secondary clinician review regardless of dose.",
+    "Recommended dose set to 0.0 mg: the decision is deferred to secondary clinician review."
+  ],
+  "FDA_Safety_Warnings_Cited": [
+    "As a general reference range across mRNA vaccine platforms, primary-series doses commonly fall between 25 and 100 micrograms, while booster or lower-reactogenicity formulations are frequently dosed between 25 and 50 micrograms.",
+    "Patients should be monitored for at least 15 minutes following administration, or 30 minutes for patients with a documented history of any allergic reaction.",
+    "Ages 65 and older: standard adult dosing range applies; however, patients in this age band with two or more relevant pre-existing conditions should be flagged for secondary clinician review regardless of dose, due to elevated reactogenicity risk observed in this population."
+  ],
+  "Disclaimer": "Student engineering project output - not real clinical guidance. Do not use for medical decisions."
+}
